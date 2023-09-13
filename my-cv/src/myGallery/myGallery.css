@@ -1,0 +1,75 @@
+.gallery {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    max-height: 70vh;
+    max-width: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin: 70px;
+}
+
+.phone {
+    height: 90vh;
+    width: 70%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .gallery {
+        width: 100%;
+        overflow: hidden;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .description {
+        font-size: 10px;
+    }
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    position: relative;
+    top: -70px;
+    left: 75px;
+}
+
+.right {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.bottom {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .gallery {
+        width: 90%;
+    }
+}
+
